@@ -1,0 +1,2 @@
+if (replacementObject.hasOwnProperty('name') && replacementObject.name !== '' && replacementObject.name !== null) {
+    const result = await db.collection(collection). replaceOne({_id: ObjectId.createFromHexString(movieId)}, replacementObject)
